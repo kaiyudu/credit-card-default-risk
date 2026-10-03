@@ -1,0 +1,35 @@
+# Local Python environments
+.venv/
+venv/
+env/
+.env/
+
+# Python caches, test artifacts, and build files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Jupyter caches
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Editors, operating-system metadata, and temporary files
+.env
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local reference source; its specific code license is not confirmed
+/references/credit-card-default-a-very-pedagogical-notebook.ipynb
